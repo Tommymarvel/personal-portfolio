@@ -8,6 +8,7 @@
 
 body {
   background-color: #e5e5e5;
+  overflow: hidden;
 }
 
 .container {
@@ -45,36 +46,30 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   top: 0;
-  width: 100%;
+  width: 400px;
   height: 718px;
-  z-index: -995;
+  z-index: -998;
   border-bottom-left-radius: 70px;
   background-color: #ffff;
+  background-position: center;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 20px 0;
-}
-
-.logo {
+.nav .logo {
   text-decoration: none;
   color: #7f8cff;
   font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
+  width: 30%;
+}
+
+.head{
+  width: 375px;
+  height: 718px;
 }
 
 nav {
   display: none;
-}
-
-.Menu {
-  width: 35px;
 }
 
 .content-intro {
@@ -87,4 +82,23 @@ nav {
   display: flex;
   align-items: center;
   height: 500px;
+  padding-top: 12em;
+}
+
+.nav{
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0;
+}
+ 
+.nav img{
+  width: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
 }
