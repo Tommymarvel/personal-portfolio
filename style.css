@@ -63,7 +63,7 @@ body {
   width: 30%;
 }
 
-.head{
+.head {
   width: 375px;
   height: 718px;
 }
@@ -85,20 +85,20 @@ nav {
   padding-top: 12em;
 }
 
-.nav{
-display: flex;
+.nav {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   margin-top: 0;
 }
- 
-.nav img{
+
+.nav img {
   width: 25px;
 }
 
-.icon{
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
+.icon {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
