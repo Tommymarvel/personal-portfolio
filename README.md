@@ -24,20 +24,20 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+* Web browser for display of content
+* VS code for coding
 
 ### Setup
+Download and install browseer
 
 ### Install
+Install VS code
 
 ### Usage
-
-### Run tests
+Go through the web page to find the information you need
 
 ### Deployment
-
-
-
-## Authors
+project files is in this repository, you can download the files manually to your local computer.
 
 👤 **Author1**
 
