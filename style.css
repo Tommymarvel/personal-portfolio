@@ -97,8 +97,12 @@ nav {
   width: 25px;
 }
 
-.icon {
+.icon ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 50%;
+}
+.icon ul li {
+  list-style: none;
+
 }
