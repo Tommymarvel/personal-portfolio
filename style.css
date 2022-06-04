@@ -4,8 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
-  /* border: 1px  solid yellow; */
 }
 
 body {
@@ -77,8 +75,6 @@ body {
 #intro_Section {
   display: flex;
   align-items: center;
-
-  /* height: 500px; */
   padding-top: 100px;
 }
 
