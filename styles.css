@@ -450,8 +450,12 @@ a .btn-two {
 
   .paragraph1 {
     margin: 10px 0;
-    width: auto;
+    width: 447px;
     margin-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
   .first-section {
@@ -489,6 +493,9 @@ a .btn-two {
   .leftabout {
     display: flex;
     flex-direction: column;
+    width: 684px;
+    padding-right: 142px;
+    padding-top: 17px;
   }
 
   .project-card {
@@ -672,8 +679,11 @@ a .btn-two {
   }
 
   .section-about {
+    display: flex;
     background-color: white;
     border-top-right-radius: 100px;
+    justify-content: center;
+    padding: 142px;
   }
 
   .section-about h1 {
@@ -692,6 +702,13 @@ a .btn-two {
   .about-grid {
     display: flex;
     flex-direction: column;
+  }
+
+  .h2 {
+    width: 447px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
   }
 
   .about-grid > article {
@@ -740,21 +757,46 @@ a .btn-two {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 10px;
-    background-color: #f6f6f9;
+    background-color: #f7f7f9;
     border-radius: 8px;
     padding: 10px;
+    width: 122px;
+    height: 120px;
+    flex-direction: column;
+    top: 12px;
+  }
+
+  .programs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .lang-text {
     font-family: Poppins, sans-serif;
     color: #344563;
-    padding-top: 10px;
-    padding-left: 15px;
+    top: 76px;
+    left: 12px;
     font-style: normal;
+    font-weight: 500;
+    width: 98px;
+    font-size: 15px;
+    padding-top: 11px;
+    padding-left: 1px;
+  }
+
+  .lang-img {
+    width: 48px;
+    height: 48px;
   }
 
   .handcursor {
     width: 57px;
     height: 57px;
+  }
+
+  .headline-text {
+    width: 447px;
+    padding: 0;
   }
 }
