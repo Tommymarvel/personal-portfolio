@@ -350,7 +350,7 @@ a .btn-two {
 }
 
 .contact-form-section {
-  width: 375px;
+  width: 100%;
   background: #6070ff;
   background-image: url(./images/contact-form-shape-mobile.png);
   background-repeat: no-repeat;
