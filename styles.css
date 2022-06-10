@@ -769,7 +769,6 @@ a .btn-two {
   .programs {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
   }
 
   .lang-text {
