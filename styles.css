@@ -269,6 +269,7 @@ a .btn-two {
 .section-about {
   background-color: white;
   border-top-right-radius: 100px;
+  height: 1263px;
 }
 
 .section-about h1 {
@@ -349,7 +350,7 @@ a .btn-two {
 }
 
 .contact-form-section {
-  width: 375px;
+  width: 100%;
   background: #6070ff;
   background-image: url(./images/contact-form-shape-mobile.png);
   background-repeat: no-repeat;
@@ -1032,3 +1033,4 @@ textarea {
     color: #b3bac5;
   }
 }
+
