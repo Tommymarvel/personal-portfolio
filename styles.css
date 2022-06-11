@@ -475,7 +475,9 @@ textarea {
   }
 
   .text {
-    top: 289px;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 12px;
   }
 
   .salutation {
@@ -552,7 +554,16 @@ textarea {
 
   .paragraph1 {
     margin: 10px 0;
-    width: 447px;
+    width: 751px;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .paragraph2 {
+    margin: 10px 0;
     margin-left: 0;
     font-weight: 400;
     font-size: 16px;
@@ -571,8 +582,8 @@ textarea {
     border-bottom-left-radius: 110px;
     height: 916px;
     padding-right: 260px;
-    padding-left: 260px;
-    padding-top: 359px;
+    padding-left: 424px;
+    padding-top: 307px;
     padding-bottom: 257px;
     top: 1px;
   }
@@ -730,6 +741,11 @@ textarea {
     color: #fff;
     font-weight: 500;
     font-size: 17px;
+  }
+
+  .hand {
+    padding-top: 334px;
+    padding-right: 78px;
   }
 
   .getmyr {
@@ -910,12 +926,13 @@ textarea {
     margin-top: -300px;
     padding: 103px 12px;
     display: flex;
-    flex-direction: column;
     gap: 15px;
     align-items: center;
     width: 100%;
+    justify-content: center;
+    flex-direction: column;
   }
-  
+
   .contact-form-section #contact-me {
     color: #fff;
     font-style: normal;
@@ -927,7 +944,7 @@ textarea {
     text-align: center;
     justify-content: center;
   }
-  
+
   .contact-form-section #contact-text {
     font-style: normal;
     font-weight: 400;
@@ -936,7 +953,19 @@ textarea {
     text-align: center;
     color: #ebebff;
   }
-  
+
+  .contactcenter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: center;
+  }
+
   .contact-form-section ul {
     list-style-type: none;
     display: flex;
@@ -944,7 +973,7 @@ textarea {
     gap: 12px;
     align-items: center;
   }
-  
+
   .contact-form-section .contact-form {
     margin-top: 20px;
     order: 1;
@@ -952,14 +981,15 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
+    padding-left: 128px;
   }
-  
+
   #name,
   #email,
   #msg {
     outline: none;
   }
-  
+
   input,
   textarea {
     border-top-style: hidden;
@@ -967,7 +997,7 @@ textarea {
     border-left-style: hidden;
     border-bottom-style: hidden;
   }
-  
+
   .contact-form-section .input-data {
     width: 327px;
     background: #fff;
@@ -975,7 +1005,7 @@ textarea {
     border-radius: 8px;
     padding: 15px 38px 15px 16px;
   }
-  
+
   .contact-form-section #name,
   #mail {
     font-style: normal;
@@ -985,11 +1015,11 @@ textarea {
     display: flex;
     align-items: center;
   }
-  
+
   .contact-form-section input::placeholder {
     color: #172b4d;
   }
-  
+
   .contact-form-section textarea {
     font-style: normal;
     font-weight: 400;
@@ -1001,5 +1031,4 @@ textarea {
   .contact-form-section textarea::placeholder {
     color: #b3bac5;
   }
-  
 }
