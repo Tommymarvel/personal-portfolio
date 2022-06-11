@@ -91,12 +91,18 @@ body {
   background-image: url('./images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
   background-color: #fff;
   margin-bottom: 50px;
   padding-top: 50px;
   border: 1px solid white;
   border-bottom-left-radius: 110px;
+}
+
+.h2 {
+  width: 447px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .work-section {
@@ -109,6 +115,15 @@ body {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 16px;
+}
+
+.project-card1 {
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -269,6 +284,8 @@ a .btn-two {
 .section-about {
   background-color: white;
   border-top-right-radius: 100px;
+  height: 1210px;
+  width: 600px;
 }
 
 .section-about h1 {
@@ -349,19 +366,26 @@ a .btn-two {
 }
 
 .contact-form-section {
-  width: 375px;
+  width: 600px;
   background: #6070ff;
   background-image: url(./images/contact-form-shape-mobile.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 143px 11px;
   border-top-left-radius: 80px;
-  margin-top: -300px;
+  margin-top: -70px;
   padding: 103px 12px;
   display: flex;
   flex-direction: column;
   gap: 15px;
   align-items: center;
+}
+
+.contactcenter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .contact-form-section #contact-me {
@@ -400,6 +424,7 @@ a .btn-two {
   flex-direction: column;
   align-items: flex-start;
   gap: 14px;
+  padding-left: 105px;
 }
 
 #name,
@@ -743,11 +768,6 @@ textarea {
     font-size: 17px;
   }
 
-  .hand {
-    padding-top: 334px;
-    padding-right: 78px;
-  }
-
   .getmyr {
     padding-bottom: 0;
   }
@@ -803,6 +823,7 @@ textarea {
     justify-content: center;
     padding: 142px;
     height: 975px;
+    width: 100%;
   }
 
   .section-about h1 {
@@ -911,6 +932,10 @@ textarea {
   .handcursor {
     width: 57px;
     height: 57px;
+    background-image: url(images/hand-cursor\ 1.png);
+    background-repeat: no-repeat;
+    padding-top: 334px;
+    padding-right: 104px;
   }
 
   .headline-text {
