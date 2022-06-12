@@ -23,8 +23,16 @@ body {
   padding-top: 24px;
 }
 
+#hambuger {
+  cursor: pointer;
+}
+
 .text {
   padding: 30px;
+}
+
+.nav-tags {
+  display: none;
 }
 
 .salutation {
@@ -505,6 +513,15 @@ textarea {
     gap: 12px;
   }
 
+  #hambuger {
+    display: none;
+  }
+
+  header {
+    padding: 25px 155px;
+    justify-content: space-between;
+  }
+
   .salutation {
     font-size: 48px;
     font-weight: 700;
@@ -571,10 +588,11 @@ textarea {
   }
 
   .nav-tags {
-    font-weight: 500;
-    font-size: 17px;
-    gap: 15px;
-    margin-right: 154px;
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    font-size: 16px;
+    font-weight: 400;
   }
 
   .paragraph1 {
